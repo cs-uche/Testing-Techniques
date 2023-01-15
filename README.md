@@ -36,3 +36,7 @@ all: install lint test
 * print
 * pdb
 * testing
+
+
+#### Learning about gist
+Hey I added a gist [check it out](https://gist.github.com/cs-uche/a302ff477d285f957f135aaa959e9136)
