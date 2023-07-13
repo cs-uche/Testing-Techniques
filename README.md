@@ -1,3 +1,5 @@
+[![Arithmetic Workflow CI/CD](https://github.com/cs-uche/Testing-Techniques/actions/workflows/main.yml/badge.svg)](https://github.com/cs-uche/Testing-Techniques/actions/workflows/main.yml)
+
 # Cloud-Data-Engineering
 ## Advanced Testing Techniques
 This is a submodule for advanced testing
