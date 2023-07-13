@@ -3,6 +3,7 @@
 from addition import add_number
 from divide import divide_number
 
+
 def test_add_positive():
     assert add_number(2, 3) == 2 + 3
 
@@ -20,15 +21,15 @@ def test_add_wrong_type():
 
 
 def test_divide_positive():
-    assert divide_number(2, 3) == 2 * 3
+    assert divide_number(2, 3) == int(2 / 3)
 
 
 def test_divide_negative():
-    assert divide_number(2, -3) == 2 * -3
+    assert divide_number(2, -3) == int(2 / -3)
 
 
 def test_divide_zero():
-    assert divide_number(-5, 0) == (-5) * 0
+    assert divide_number(-5, 0) == "error"
 
 
 def test_divide_wrong_type():

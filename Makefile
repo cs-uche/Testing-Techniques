@@ -9,6 +9,6 @@ lint:
 	pylint --disable=R,C *.py
 
 test:
-	python -m pytest -vv --cov=arithmetic test_arithmetic.py
+	python -m pytest -vv --cov=addition --cov=divide test_arithmetic.py
 
 all: install lint test

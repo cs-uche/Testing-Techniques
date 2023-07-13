@@ -24,6 +24,10 @@ def divide_number(x, y):
         print("\nThe wrong type was passed")
         result = "error"
 
+    except ZeroDivisionError:
+        print("\nDenominator cannot be zero")
+        result = "error"
+
     print(f"\nThis is the result: {result}")
     return result
 
